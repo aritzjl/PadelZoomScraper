@@ -5,6 +5,7 @@ class Store:
         self.price = price
         self.url = url
         self.imageUrl = imageUrl
+        self.promoCode = promoCode
 
 
 class Paddle:
