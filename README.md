@@ -49,7 +49,9 @@ The `requirements.txt` includes all necessary libraries.
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Contributions are welcome! If you submit a pull request, please ensure that your code follows PEP 8 conventions using Flake8.
+
+Feel free to open issues or submit pull requests.
 
 ---
 
