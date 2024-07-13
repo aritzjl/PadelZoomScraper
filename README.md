@@ -1,6 +1,6 @@
 # PadelZoom Scraper
 
-The PadelZoom Scraper is a Python tool designed to scrape paddle information from the PadelZoom website. It extracts detailed attributes, statistics, and pricing information for various paddles, saving the data in a structured JSON format.
+The PadelZoom Scraper is a Python tool designed to scrape paddle information from the [PadelZoom](https://padelzoom.es/) website. It extracts detailed attributes, statistics, and pricing information for various paddles, saving the data in a structured JSON format.
 ![image](https://github.com/user-attachments/assets/b7158250-d120-4692-983d-d71de5bbad35)
 
 ## Features
