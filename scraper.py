@@ -151,7 +151,10 @@ def add_paddle_stores(paddle: Paddle, soup: BeautifulSoup) -> None:
         soup (BeautifulSoup): The BeautifulSoup object
         containing the parsed HTML.
     """
-    paddle.originalPrice = float(soup.find(id='pvp-price-single').text)
+    try:
+        paddle.originalPrice = float(soup.find(id='pvp-price-single').text)
+    except (AttributeError, ValueError):
+        paddle.originalPrice = None
     try:
         paddle.bestPrice = float(soup.find(property='offers').text)
     except (AttributeError, ValueError):
